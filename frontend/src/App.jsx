@@ -4,6 +4,7 @@ import Profiles from "./pages/Profiles";
 import Projects from "./pages/Projects";
 import StartUps from "./pages/StartUps";
 import ConnectPage from "./pages/ConnectPage";
+import StartupProfile from "./pages/StartupProfile";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import Navbar from "./components/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/profiles" element={<Profiles />} />
+        <Route path="/startup/:id" element={<StartupProfile />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/startups" element={<StartUps />} />
         <Route path="/connect" element={<ConnectPage />} />
