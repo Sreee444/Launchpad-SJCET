@@ -15,35 +15,11 @@ const StartupProfile = () => {
         <span className="text-xl cursor-pointer"></span>
       </div>
 
-      {/* Logo and Navbar */}
-      <div className="bg-white rounded-xl shadow-md p-4 flex items-center justify-between mx-auto max-w-4xl mt-6">
-        <div className="flex items-center gap-2">
-          <span className="font-bold text-lg">LOGO</span>
-        </div>
-        <div className="flex gap-6">
-          <a href="#" className="hover:text-green-700 font-medium">
-            Home
-          </a>
-          <a href="#" className="hover:text-green-700 font-medium text-[#38876d]">
-            Startups
-          </a>
-          <a href="#" className="hover:text-green-700 font-medium">
-            Projects
-          </a>
-          <a href="#" className="hover:text-green-700 font-medium">
-            Announcements
-          </a>
-          <a href="#" className="hover:text-green-700 font-medium">
-            About Us
-          </a>
-        </div>
-        <button className="bg-[#d2f4e4] text-[#38876d] px-5 py-2 rounded-lg font-semibold shadow-sm hover:bg-[#b5d3bd] transition">
-          Join Us
-        </button>
-      </div>
+      {/* Spacer to keep same space as removed navbar */}
+      <div className="mt-6" />
 
       {/* Main Card */}
-      <div className="bg-white max-w-4xl mx-auto mt-10 rounded-2xl p-10 shadow-lg">
+      <div className="bg-white max-w-4xl mx-auto mt-4 rounded-2xl p-10 shadow-lg">
         {/* Tag and Name */}
         <div className="flex items-center gap-8 mb-8">
           <div className="bg-[#eaf6ef] rounded-xl p-8 flex-shrink-0 border-2 border-[#b5d3bd] shadow-inner">
